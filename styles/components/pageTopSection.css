@@ -1,0 +1,51 @@
+.page_top_section{
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+    z-index: -1;
+    background: url('../../public/bg.png') 0% 0% / cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* top: 0; */
+    padding-top: 120px;
+    margin-top: -100px;
+  }
+  .page_top_content{
+    padding: 0 10% 2% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .page_top_title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .page_lottie_1 svg{
+    height: 400px !important;
+  }
+  .btn-1{
+    padding: 15px 10px;
+    background-color: #eb6d46;
+    width: 200px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgb(50 50 93 / 25%) 11px 11px 7px 0px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+  }
+  .page_top_title h1{
+    color: #313e5b;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .page_top_title h1 span{
+    color: #eb6d46;
+  }
+  .page_top_title p:nth-child(1){
+    color: #eb6d46;
+    font-weight: 600;
+  }
+  .page_top_title .page_top_des_p{
+    color: #313e5b;
+  }

@@ -1,0 +1,30 @@
+.about_sec{
+    padding: 2% 10%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+}
+.about_sec_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.about_sec_content h1{
+    color: #313e5b;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .about_sec_content p:nth-child(1){
+    color: #eb6d46;
+    font-weight: 600;
+  }
+  .about_sec_content p:nth-child(3){
+    color: #313e5b;
+  }
+  .about_sec_content ul li{
+    display: flex;
+    align-items: center;
+  }
+  .about_sec_content ul li img{
+    width: 40px;
+  }

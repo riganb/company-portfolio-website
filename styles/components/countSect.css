@@ -1,0 +1,21 @@
+.count_up{
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    background: url(../../public/counter_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.count_up_content{
+    display: grid;
+    gap: 0.5rem;
+    justify-items: center;
+    color: #fff;
+}
+.count_up_icon{
+    font-size: 40px;
+}

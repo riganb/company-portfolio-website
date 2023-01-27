@@ -1,0 +1,56 @@
+.home_ser_list img {
+  width: 80px;
+  color: #eb6d46;
+  margin: auto;
+}
+
+.home_ser_list {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 4rem;
+  margin: 50px 10%;
+}
+
+.home_ser_list_icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.home_ser_list_icon div {
+  padding: 10px;
+  background: linear-gradient(to bottom, #c7bddaa5, #c7bdda4d, #fff);
+  /* border-top: 4px solid #313e5bba; */
+  border-width: 3px;
+  border-style: solid;
+  border-image:
+    linear-gradient(to bottom,
+      #8979b3,
+      #00000000) 1 49%;
+  border-bottom: none;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  font-weight: 600;
+  color: #313e5b;
+}
+
+.home_ser_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home_ser_content p:nth-child(1) {
+  color: #eb6d46;
+  font-weight: 600;
+}
+
+.home_ser_content h1 {
+  font-size: 40px;
+  color: #313e5b;
+}
+
+.home_ser_content p:nth-child(3) {
+  color: #313e5b;
+}
