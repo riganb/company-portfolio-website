@@ -1,0 +1,48 @@
+.client_feedback {
+    padding: 2% 10%;
+    display: block;
+    background: url('../../public/client-feedback/claint-bg.jpg');
+    background-position: center;
+    background-size: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.client_feedback_h1 {
+    font-weight: 900;
+    color: #313e5b;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+}
+
+.client_feedback_h1 span {
+    color: #eb6d46;
+}
+
+.client_review {
+    padding: 2% 20%;
+    display: grid;
+    gap: 1rem;
+}
+
+.review_swiper_bg {
+    border-radius: 5px;
+    background-color: #dbdbdbc7;
+    backdrop-filter: blur(2px);
+    color: #142342;
+
+}
+
+.client_review div:nth-child(1) {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.client_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -3,6 +3,8 @@ import Lottiehome1 from '../public/lottie/home_1.json';
 import PageTopSection from '@/components/page-top-section/pageTopSection';
 import AboutUsSec from '@/components/aboutUs/aboutUsSec';
 import CountSect from '@/components/counter/countSect';
+import OutTechnologies from '@/components/our-technologies/ourTechnologies';
+import ClientFeedback from '@/components/client-feedback/client-feedback';
 
 const index = () => {
 
@@ -47,9 +49,8 @@ const index = () => {
 
         <AboutUsSec />
         <CountSect />
-
-
-
+        <OutTechnologies />
+        <ClientFeedback />
 
 
       </div>

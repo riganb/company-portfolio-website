@@ -1,0 +1,28 @@
+.out_technologies{
+    padding: 2% 10%;
+}
+.out_technologies h1{
+    text-align: center;
+    margin: 20px 0;
+    color: #eb6d46;
+}
+.our_tec_list{
+    display: grid;
+}
+.tec_list{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    color: #313e5b;
+    gap: 0.5rem;
+}
+.tec_list div{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.tec_list div img{
+    width: 50px;
+}
