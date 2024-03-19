@@ -35,19 +35,12 @@ const navbar = () => {
                         <span className="hamburger-line hamburger-line-middle"></span>
                         <span className="hamburger-line hamburger-line-bottom"></span>
                     </button>
-
-
                     <ul id="primary-menu" className="menu nav-menu">
-                        <li className="menu-item current-menu-item"><a className="nav__link" href="#">Home</a></li>
-                        <li className="menu-item "><a className="nav__link" href="#">About</a></li>
-                        <li className="menu-item "><a className="nav__link" href="#">Services</a></li>
-                        <li className="menu-item "><a className="nav__link" href="#">Portfolio</a></li>
-                        <li className="menu-item "><a className="nav__link" href="#">Gallery</a></li>
-                        <li className="menu-item "><a className="nav__link" href="#">career</a> </li>
-                        <li className="menu-item "><a className="nav__link" href="#">Contact</a></li>
+                        <li className="menu-item current-menu-item"><a className="nav__link" href="#home">Home</a></li>
+                        <li className="menu-item "><a className="nav__link" href="#about">About</a></li>
+                        <li className="menu-item "><a className="nav__link" href="#services">Services</a></li>
+                        <li className="menu-item "><a className="nav__link" href="#contact">Contact</a></li>
                     </ul>
-
-
                 </div>
             </nav>
         </>

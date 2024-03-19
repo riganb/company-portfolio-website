@@ -17,7 +17,7 @@ const pageTopSection = ({
                         <p>{sort_des}</p>
                         <h1>{title}<br /> <span>{span}</span></h1>
                         <p className='page_top_des_p'>{desc}</p>
-                        <a className='btn-1' href="#">{button}</a>
+                        <a className='btn-1' href="#services">{button}</a>
                     </div>
                     <div >
                         <Lottie className="page_lottie_1" loop={true} animationData={lottieFile} />

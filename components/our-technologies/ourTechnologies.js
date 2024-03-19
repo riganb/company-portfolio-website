@@ -3,7 +3,7 @@ import React from 'react'
 const outTechnologies = () => {
   return (
     <>
-      <div className="out_technologies">
+      <div className="out_technologies" id="services">
         <h1>Our Technologies</h1>
         <div className="our_tec_list">
           <div className="tec_list">

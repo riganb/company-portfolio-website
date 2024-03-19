@@ -17,23 +17,13 @@ const countSect = () => {
         <div className="count_up">
           <div className="count_up_content">
             <HiOutlineEmojiHappy className="count_up_icon" />
-            <h1>{counterOn && <CountUp start={0} end={150} duration={3} delay={0} />} +</h1>
+            <h1>{counterOn && <CountUp start={0} end={7} duration={3} delay={0} />} +</h1>
             <p>Happy Clients</p>
           </div>
           <div className="count_up_content">
             <AiOutlineFundProjectionScreen className="count_up_icon" />
-            <h1>{counterOn && <CountUp start={0} end={200} duration={3} delay={0} />} +</h1>
+            <h1>{counterOn && <CountUp start={0} end={13} duration={3} delay={0} />} +</h1>
             <p>Project Completed</p>
-          </div>
-          <div className="count_up_content">
-            <BiTimeFive className="count_up_icon" />
-            <h1>{counterOn && <CountUp start={0} end={3} duration={1} delay={0} />} +</h1>
-            <p>Years of experience</p>
-          </div>
-          <div className="count_up_content">
-            <CgAwards className="count_up_icon" />
-            <h1>{counterOn && <CountUp start={0} end={10} duration={2} delay={0} />} +</h1>
-            <p>Awards</p>
           </div>
         </div>
       </ScrollTrigger>

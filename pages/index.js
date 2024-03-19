@@ -10,12 +10,12 @@ const index = () => {
 
   return (
     <>
-      <div className="hme_container">
+      <div className="hme_container" id="home">
         <PageTopSection
           sort_des="Paving the way through disruptive technologies"
           title="Grow your business with"
-          span="ZealtechBD"
-          desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, molestias eligendi eaque earum hic delectus assumenda sapiente saepe cupiditate dolore."
+          span="Codecade"
+          desc="With a focus on efficiency and collaboration, we empower businesses to achieve their goals and surpass expectations. Whether you're a startup or an established enterprise, let Codecade be your partner in navigating the ever-evolving landscape of technology and project management."
           button="Services We Provide"
           lottieFile={Lottiehome1}
         />
@@ -42,8 +42,8 @@ const index = () => {
           <div className="home_ser_content">
             <p>How can we help you?</p>
             <h1>You name it, We will do it</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quaerat deserunt recusandae at hic quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur dolorem reprehenderit temporibus corporis praesentium autem sapiente libero quia tempora?</p>
-            <a href="#" className='btn-1'>Learn more</a>
+            <p>Our team of dedicated professionals is committed to providing continuous support and services to ensure the success of every project. With a focus on efficiency and collaboration, we empower businesses to achieve their goals and surpass expectations.</p>
+            <a href="#services" className='btn-1'>Learn more</a>
           </div>
         </div>
 

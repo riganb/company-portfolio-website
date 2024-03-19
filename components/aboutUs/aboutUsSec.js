@@ -5,11 +5,11 @@ import LottieAboutSec from '../../public/lottie/about-us.json';
 const aboutUsSec = () => {
   return (
     <>
-      <div className='about_sec'>
+      <div className='about_sec' id="about">
         <div className='about_sec_content'>
           <p>About Company</p>
           <h1>We believe, one idea begets others, but one great idea stays stronger above all.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea rem dicta provident neque, quia error illum quam adipisci maiores beatae, ab ipsa? Vitae porro dicta nihil! Sit odio, nostrum, libero perspiciatis deleniti, consequatur mollitia aliquam exercitationem ea ipsam nulla.</p>
+          <p>At Codecade, we pride ourselves on delivering innovative solutions that streamline project management for organizations of all sizes. Our team of dedicated professionals is committed to providing continuous support and services to ensure the success of every project.</p>
           <ul>
             <li>
               <img src="gif/giphy.gif" alt="gif" />

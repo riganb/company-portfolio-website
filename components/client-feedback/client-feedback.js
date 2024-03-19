@@ -9,9 +9,9 @@ import { Pagination } from "swiper";
 const ClientFeedback = () => {
     return (
         <>
-            <h1 className='client_feedback_h1'>Client Feedback <span>Inspired us</span> <br />
+            <h1 className='client_feedback_h1'>Continuous Feedback and Mentoring <span>Inspired us</span> <br />
                 To Do Someting Great Together</h1>
-            <div className="client_feedback">
+            <div className="client_feedback" id="portfolio">
                 <Swiper
                     pagination={{
                         dynamicBullets: true,
@@ -21,15 +21,15 @@ const ClientFeedback = () => {
                     <SwiperSlide>
                         <div className="client_review">
                             <div>
-                                <img className='client_img' src="client-feedback/caparkapa.jpg" alt="img" />
+                                <div>As stated by</div>
                                 <div>
-                                    <h3>Peter Castle, UK</h3>
-                                    <p>MD of Company</p>
+                                    <h3>Agam Prakash</h3>
+                                    <p>Co Founder, Codecade</p>
                                 </div>
                             </div>
                             <div>
                                 <p>
-                                    "I have brought two of their scripts before problem-free. I look forward to using this multivendor vue PWA. I know they provide support, unlike other developers who sell a support-less script."</p>
+                                    "We are invested in the work we do. And conisder our clients' growth as our own."</p>
                             </div>
                         </div>
                     </SwiperSlide>
